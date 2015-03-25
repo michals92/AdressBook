@@ -1,0 +1,8 @@
+job:2014-01-01:cleaning manager:6000:4
+job:2011-06-25:waitress:10000:12
+unemployed:Jana Cista:3000:8
+job:2013-12-10:call center operator:12000:8
+job:2014-01-01:cleaning manager:6000:4
+unemployed:Karel Nerd:10000:8
+unemployed:Petr Naivni:25000:4
+job:2013-09-08:programmer:30000:8

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=givenName\ surname
+comment0.target=Person(java.lang.String,\ java.lang.String)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Person.\n\ \n\ @param\ \ givenName\ is\ the\ string\ of\ the\ givenName\n\ @param\ \ surname\ is\ the\ string\ of\ the\ surname\n
+comment1.params=surname
+comment1.target=void\ setSurname(java.lang.String)
+comment1.text=\n\ The\ setter\ method\ sets\ the\ surname.\n\ \n\ @param\ \ string\ characterizing\ the\ instance\n
+comment2.params=
+comment2.target=java.lang.String\ getSurname()
+comment2.text=\n\ The\ getter\ method\ gets\ the\ surname.\n\ \n\ @return\ \ string\ characterizing\ the\ instance\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\n\ The\ method\ overrides\ the\ method\ toString()\ of\ the\ class\ Object.\n\ \n\ @return\ \ string\ characterizing\ the\ instance\n
+numComments=4

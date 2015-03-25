@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=givenName\ surname
+comment0.target=EnlargedPerson(java.lang.String,\ java.lang.String)
+comment0.text=\n\n
+comment1.params=
+comment1.target=IEnlargedPerson\ getPartner()
+comment2.params=person
+comment2.target=void\ setPartner(IEnlargedPerson)
+comment3.params=
+comment3.target=void\ renewName()
+comment4.params=surname
+comment4.target=void\ changeName(java.lang.String)
+numComments=5

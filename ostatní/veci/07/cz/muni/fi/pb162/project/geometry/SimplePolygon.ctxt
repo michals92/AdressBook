@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=double\ getHeight()
+comment0.text=\n\ Return\ height\ of\ a\ simple\ polygon.\n\ \n\ @return\ Height\n
+comment1.params=
+comment1.target=double\ getWidth()
+comment1.text=\n\ Return\ width\ of\ a\ simple\ polygon.\n\ \n\ @return\ Width\n
+comment2.params=
+comment2.target=double\ getLength()
+comment2.text=\n\ Return\ length\ of\ a\ simple\ polygon.\n\ \n\ @return\ Length\n
+comment3.params=
+comment3.target=double\ getArea()
+comment3.text=\n\ Return\ area\ of\ a\ simple\ polygon.\n\ \n\ @return\ Area\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=author\ name
+comment0.target=void\ addBook(java.lang.String,\ java.lang.String)
+comment1.params=author\ name
+comment1.target=int\ remove(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.util.Collection\ getBooks()
+comment3.params=
+comment3.target=java.util.Collection\ getCatalogue()
+comment4.params=comparator
+comment4.target=java.util.Collection\ getCatalogue(java.util.Comparator)
+numComments=5

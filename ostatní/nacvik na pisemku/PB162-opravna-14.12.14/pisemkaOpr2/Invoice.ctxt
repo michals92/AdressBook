@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=id\ amount\ priority
+comment0.target=Invoice(java.lang.String,\ double,\ int)
+comment0.text=\n\ @param\ id\ ID\ of\ the\ invoice.\ Must\ not\ be\ null.\n\ @param\ amount\ Sum\ to\ pay.\ Must\ be\ bigger\ than\ zero\n\ @param\ priority\ Priority\ of\ payment\ as\ a\ number\ between\ 0\ (low)\ and\ 10\ (high)\n\ @throws\ valuable\ exceptions\ on\ wrong\ parameters\ \:-)\n
+comment1.params=
+comment1.target=double\ getAmount()
+comment1.text=\n\ @return\ Sum\ to\ pay\n
+comment2.params=
+comment2.target=int\ getPriority()
+comment2.text=\n\ @returns\ Priority\ of\ payment\:\ 0\ \=\ low,\ 10\ \=\ high\n
+comment3.params=
+comment3.target=java.lang.String\ getId()
+comment3.text=\n\ @returns\ ID\ of\ the\ invoice\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=obj
+comment5.target=boolean\ equals(java.lang.Object)
+comment6.params=
+comment6.target=int\ hashCode()
+comment7.params=obj
+comment7.target=int\ compareTo(Invoice)
+numComments=8

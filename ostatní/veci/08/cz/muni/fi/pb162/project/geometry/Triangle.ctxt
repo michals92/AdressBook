@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=vertexA\ vertexB\ vertexC
+comment0.target=Triangle(Vertex2D,\ Vertex2D,\ Vertex2D)
+comment0.text=\ \n\ Konstruktor\ trojuhelniku\n\n\ @param\ vertexA\ bod\ A\n\ @param\ vertexB\ bod\ B\n\ @param\ vertexC\ bod\ C\n
+comment1.params=
+comment1.target=boolean\ isEquilateral()
+comment1.text=\n\ zjist\u00ED\ jestli\ je\ trojuhelnik\ rovnostranny\ \n\ \n\ @return\ true\ pokud\ je\ rovnostranny,\ false\ pokud\ nen\u00ED\n
+numComments=2

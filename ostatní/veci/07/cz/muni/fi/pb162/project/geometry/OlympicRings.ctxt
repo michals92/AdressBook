@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=center\ radius
+comment0.target=OlympicRings(Vertex2D,\ double)
+comment0.text=\n\ Vytvori\ 5\ kruhu\ -\ olympijske\ kruhy\ \n\ \n\ @param\ center\ -\ stred\ prvniho\ cerneho\ kruhu\n\ @param\ radius\ -\ polomer\ vsech\ kruhu\n
+comment1.params=
+comment1.target=Circle\ getBlackRing()
+comment2.params=
+comment2.target=Circle\ getBlueRing()
+comment3.params=
+comment3.target=Circle\ getRedRing()
+comment4.params=
+comment4.target=Circle\ getYellowRing()
+comment5.params=
+comment5.target=Circle\ getGreenRing()
+numComments=6

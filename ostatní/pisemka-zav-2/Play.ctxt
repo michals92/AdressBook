@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=title\ author\ actors
+comment0.target=Play(java.lang.String,\ java.lang.String,\ java.lang.String[])
+comment0.text=\n\ @param\ title\ Title\ of\ the\ play\n\ @param\ author\ Author\n\ @param\ actors\ Actors\n\ @throws\ IllegalArgumentException\ if\ some\ parameter\ is\ missing\n
+comment1.params=
+comment1.target=java.lang.String\ getTitle()
+comment1.text=\n\ @return\ Title\n
+comment2.params=
+comment2.target=java.lang.String\ getAuthor()
+comment2.text=\n\ @return\ Author\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=
+comment4.target=java.util.List\ getActors()
+comment5.params=obj
+comment5.target=boolean\ equals(java.lang.Object)
+comment6.params=
+comment6.target=int\ hashCode()
+comment7.params=obj
+comment7.target=int\ compareTo(Play)
+numComments=8

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Championship()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Championship\n
+comment1.params=swimmers\ marks
+comment1.target=void\ setMarks(SynSwimmers,\ java.util.List)
+comment2.params=ss
+comment2.target=java.util.List\ getMarks(SynSwimmers)
+comment3.params=
+comment3.target=java.util.Set\ getSynSwimmers()
+comment4.params=ss
+comment4.target=double\ getFinalMark(SynSwimmers)
+comment5.params=os
+comment5.target=void\ store(java.io.OutputStream)
+comment6.params=file
+comment6.target=void\ store(java.io.File)
+comment7.params=f
+comment7.target=void\ load(java.io.File)
+numComments=8

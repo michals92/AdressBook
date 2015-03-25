@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=producer\ speed
+comment0.target=NetworkCard(java.lang.String,\ int)
+comment0.text=\r\n\ @param\ producer\ card\ producer\ (manufacturer),\ must\ not\ be\ null\r\n\ @param\ speed\ maximal\ speed\ in\ Mbps,\ must\ be\ bigger\ than\ zero\r\n\ @throws\ IllegalArgumentException\ if\ producer\ is\ null\ or\ speed\ is\ <\=\ 0\r\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment2.params=obj
+comment2.target=boolean\ equals(java.lang.Object)
+comment3.params=
+comment3.target=int\ hashCode()
+numComments=4

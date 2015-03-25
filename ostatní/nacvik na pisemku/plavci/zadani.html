@@ -1,0 +1,73 @@
+﻿<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+
+    <h1>Java - závěrečná písemka (7.1.2013)</h1>
+    <p>
+      Existující rozhraní ani třídy neměňte, pokud to přímo nevyžaduje zadání! Metody NEMUSÍTE dokumentovat pomocí JavaDoc</br>
+      komentářů. Používejte zásadně privátní atributy. Vyhněte se zbytečnému opakování kódu. <b>Pokud kód nejde v okamžiku</br>
+      odevzdání přeložit, tak je zkouška automaticky za 0 bodů!</b>
+    </p>
+    <p>
+      Úloha simuluje udělování bodů rozhodčími v závodu v synchronizovaném plavání. Evidentně zbytečný a/nebo neefektivní kód</br>
+      při práci s kolekcemi bude penalizován.
+    </p>
+    <ul>
+      <li>Upravte třídu <code>SynSwimmers</code> (družstvo akvabel) tak, aby platilo, že dva družstva jsou stejná, pokud mají stejné startovní</br>
+          číslo. Dále definujte přirozené uspořádání na družstvech vzestupně podle jejich startovních čísel.</li>
+      <li>Vytvořte třídu <code>Championship</code> (mistrovství). Účelem třídy je pamatovat si ke každému družstvu akvabel, jaké dostal od</br>
+          rozhodčích známky. Důležité je kromě samotných známek uchovat i jejich pořadí (abychom věděli, který rozhodčí udělil</br>
+	  kterou známku). Třída bude mít následující atributy a metody:</li>
+      <ul>
+	<li>Počet rozhodčích (a tím pádem i počet přidělených známek) bude definován vhodně pojmenovanu veřejnou konstantou</br>
+	    nastavenou na hodnotu 8.</li>
+	<li>Metoda <code>void setMarks(...)</code> slouží k přidělení známek družstvu akvabel. Bude mít dva parametry. Prvním je</br>
+	    družstvo, druhým pak seznam udělených známek.</br>
+	    Pokud je některý z argumentů <code>null</code>, vyhodí metoda vhodnou výjimku.</br>
+	    Pokud v seznamu není přesně osm známek, vyhodí metoda vhodnou výjimku.</br>
+	    Pokud má již družstvo přiděleny známky, vyhodí metoda vhodnou výjimku.</br>
+	    Pokud je vše v pořádku, uloží metoda známky družstvu akvabel.</li>
+	<li>Metoda <code>getMarks(SynSwimmers ss)</code> vrátí kolekci známek udělených danému družstvu. Pokud je vstupní argument</br>
+	    <code>null</code>, nebo pokud družstvo neexistuje, vyhodí metoda vhodnou výjimku.</li>
+        <li>Metoda <code>getSynSwimmers()</code> vrátí kolekci všech družstev. Družstva budou uspořádána abecedně podle států,</br>
+ 	    v případe shodných států bude druhým kritériem startovní číslo (vzestupně). Pokud v systému není dosud žádné</br>
+	     družstvo, vrátí metoda prázdnou kolekci.</li>
+        <li>Metoda <code>double getFinalMark(SynSwimmers ss)</code> vrátí výslednou známku, která se vypočítá tak, že se z udělených</br>
+	    známek vynechá jedna nejvyšší a jedna nejnižší a ze zbytku se vypočítá aritmetický průměr. Pokud je vstupní</br>
+	    argument <code>null</code>, nebo pokud družstvo neexistuje, vyhodí metoda vhodnou výjimku.</li>
+        <li>Metoda <code>void store(OutputStream os)</code> zapíše data o závodu textově do výstupního proudu v následujícím formátu:</li>
+          <ul>
+	    <li>Co řádek, to jedno družstvo a jeho známky.</li>
+            <li>Každý řádek obsahuje startovní číslo, dvojtečku, stát, dvojtečku a následně udělené známky</br>
+		oddělené čárkami.</li>
+	    <li>Příklad jednoho řádku:</br>
+		<code>2:Czech Republic:7,6,7,7,8,5,5,4</code></li>
+            <li>Při chybě během zápisu vyhodí metoda výjimku <code>IOException</code>.</li>
+          </ul>
+        <li>Metoda <code>void store(File file)</code> bude fungovat stejně jako předchozí, bude ale zapisovat do daného souboru.</li>
+        <li>Metoda <code>void load(File f)</code>, která <b>bude selhávat atomicky</b>, načte data z daného souboru (formát viz předchozí</br>
+	    body) a družstva přidá k dosavadním družstvům. Metoda bude vyhazovat <code>IOException</code> při chybě vstupu nebo při</br>
+	    špatném formátu dat.</li>
+      </ul>
+      </br>
+      Třída <code>Demo</code> slouží pro vaši kontrolu funkčnosti kódu a obsahuje také logiku volání metod. Při správné implementaci</br>
+      program vypíše:</li></br></br>
+      <code>
+        Czech Rep. marks: [7, 7, 5, 8, 7, 5, 7, 8]</br>
+        Czech Rep. final mark: 6,83</br>
+        Re-loading from file...</br>
+        Syn. swimmers and their final marks /order does matter/:</br>
+        1:China:7,00</br>
+        3:China:6,50</br>
+        2:Czech Republic:6,17</br>
+        Product of store() method /order of lines does not matter/:</br>
+        1:China:7,7,7,7,7,7,7,7</br>
+        2:Czech Republic:7,6,7,7,8,5,4,5</br>
+        3:China:7,7,7,7,6,6,6,6
+      </code>
+    </ul>
+
+  </body>
+</html>

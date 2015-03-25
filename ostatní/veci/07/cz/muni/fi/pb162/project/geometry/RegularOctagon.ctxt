@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=center\ edgeLength
+comment0.target=RegularOctagon(Vertex2D,\ double)
+comment0.text=\n\ Konstruktor\ vytvo\u0159\u00ED\ 8-uheln\u00EDk\ \n
+numComments=1

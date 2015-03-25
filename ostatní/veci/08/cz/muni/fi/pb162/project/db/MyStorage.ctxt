@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=connector\ maxAttempts
+comment0.target=MyStorage(Connector,\ int)
+comment0.text=\n\ kontroluje\ platnost\ vstupnich\ argumentu\n\n\ @param\ connector\ -\ nesmi\ byt\ null\n\ @param\ maxAttempts\ -\ cele\ cislo\ vetsi\ jak\ nula\n
+comment1.params=host\ data
+comment1.target=void\ store(java.lang.String,\ java.lang.Object)
+comment1.text=\n\ uklada\ fiktivni\ data\ ,\ kontroluje\ vyjimky\n\ \n\ @param\ host\ -\ adresa\ vzdaleneho\ serveru\n\ @param\ data\ -\ data\ k\ ulozeni\n
+numComments=2

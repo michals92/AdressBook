@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=radius\ reduction
+comment0.target=Snowman(double,\ double)
+comment0.text=\n\ Inicializuje\ snehulaka,\ vola\ tridy\ pro\ vytvoreni\ tela\ a\ rukou\n\ \n\ @param\ radius\ -\ polom\u011Br\ kruhu\n\ @param\ redustion\ -\ pom\u011Br\ redukce\n
+comment1.params=radius\ reduction
+comment1.target=void\ createBody(double,\ double)
+comment1.text=\n\ Vytvori\ telo\ snehulaka\ ze\ 3\ kruznic\n\ \n\ @param\ radius\ -\ polom\u011Br\ kruhu\n\ @param\ redustion\ -\ pom\u011Br\ redukce\n
+comment2.params=
+comment2.target=void\ createHands()
+comment2.text=\n\ Vytvoti\ ruce\ ze\ dvou\ kruznic\n\ \n
+comment3.params=
+comment3.target=Circle\ getBottomBall()
+comment4.params=
+comment4.target=Circle\ getMiddleBall()
+comment5.params=
+comment5.target=Circle\ getTopBall()
+comment6.params=
+comment6.target=Circle\ getLeftHandBall()
+comment7.params=
+comment7.target=Circle\ getRightHandBall()
+numComments=8

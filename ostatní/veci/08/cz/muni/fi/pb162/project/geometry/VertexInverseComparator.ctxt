@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=first\ second
+comment0.target=int\ compare(Vertex2D,\ Vertex2D)
+comment0.text=\n\ Compares\ two\ vertices\n\ \n\ @para\n
+numComments=1

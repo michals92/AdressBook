@@ -1,0 +1,44 @@
+Class documentation
+<---- javadoc command: ---->
+/usr/lib/jvm/java-7-openjdk-amd64/bin/javadoc
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.7
+-classpath
+/usr/share/bluej/bluejcore.jar:/usr/share/bluej/junit-4.8.2.jar:/home/oslejsek/Dokumenty/FI/2014/Vyuka/PB162/zkousky/opravna/pisemkaOpr-reseni
+-d
+/home/oslejsek/Dokumenty/FI/2014/Vyuka/PB162/zkousky/opravna/pisemkaOpr-reseni/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+/usr/share/bluej/bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+/home/oslejsek/Dokumenty/FI/2014/Vyuka/PB162/zkousky/opravna/pisemkaOpr-reseni/Debt.java
+<---- end of javadoc command ---->
+Loading source file /home/oslejsek/Dokumenty/FI/2014/Vyuka/PB162/zkousky/opravna/pisemkaOpr-reseni/Debt.java...
+Constructing Javadoc information...
+Standard Doclet version 1.7.0_65
+Building tree for all the packages and classes...
+Generating /home/oslejsek/Dokumenty/FI/2014/Vyuka/PB162/zkousky/opravna/pisemkaOpr-reseni/doc/Debt.html...
+/home/oslejsek/Dokumenty/FI/2014/Vyuka/PB162/zkousky/opravna/pisemkaOpr-reseni/Debt.java:47: warning - @returns is an unknown tag.
+/home/oslejsek/Dokumenty/FI/2014/Vyuka/PB162/zkousky/opravna/pisemkaOpr-reseni/Debt.java:40: warning - @returns is an unknown tag.
+Generating /home/oslejsek/Dokumenty/FI/2014/Vyuka/PB162/zkousky/opravna/pisemkaOpr-reseni/doc/package-frame.html...
+Generating /home/oslejsek/Dokumenty/FI/2014/Vyuka/PB162/zkousky/opravna/pisemkaOpr-reseni/doc/package-summary.html...
+Generating /home/oslejsek/Dokumenty/FI/2014/Vyuka/PB162/zkousky/opravna/pisemkaOpr-reseni/doc/constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating /home/oslejsek/Dokumenty/FI/2014/Vyuka/PB162/zkousky/opravna/pisemkaOpr-reseni/doc/allclasses-frame.html...
+Generating /home/oslejsek/Dokumenty/FI/2014/Vyuka/PB162/zkousky/opravna/pisemkaOpr-reseni/doc/allclasses-noframe.html...
+Generating /home/oslejsek/Dokumenty/FI/2014/Vyuka/PB162/zkousky/opravna/pisemkaOpr-reseni/doc/index.html...
+Generating /home/oslejsek/Dokumenty/FI/2014/Vyuka/PB162/zkousky/opravna/pisemkaOpr-reseni/doc/stylesheet.css...
+2 warnings

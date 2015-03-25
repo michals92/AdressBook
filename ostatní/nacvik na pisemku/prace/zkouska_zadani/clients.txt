@@ -1,0 +1,6 @@
+Ladislav Lusr:man:non-smoker:32:non-smoker:18:34
+Marek Novak:man:smoker:29::18:50
+Marek Novak:man:smoker:29::18:50
+Boza Bila:woman:non-smoker:20:non-smoker:19:33
+Anna Zoufala:woman:non-smoker:30::25:40
+Darja Bila:woman:smoker:35::40:50

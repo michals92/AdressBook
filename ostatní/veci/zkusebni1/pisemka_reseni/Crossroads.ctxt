@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=throughput
+comment0.target=Crossroads(int)
+comment0.text=\n\ @param\ throughput\ Throughput\ of\ the\ crossroads\n\ @throws\ IllegalArgumentException\ if\ the\ throughput\ argument\ is\ <\=\ 0\n
+comment1.params=
+comment1.target=int\ getThroughput()
+comment2.params=car\ dir
+comment2.target=boolean\ comeTo(Car,\ CardinalPoint)
+comment2.text=\n\ Car\ is\ comming\ to\ the\ crossroad\ from\ given\ direction.\n\ \n\ @param\ car\ car\n\ @param\ dir\ comming\ direction\ (either\ north,\ south,\ west\ or\ east)\n\ @return\ true\ if\ the\ car\ went\ throught\ the\ crossroads\ immediately,\n\ \ \ \ \ \ \ \ \ false\ if\ the\ car\ stopped\n\ @throws\ IllegalArgumentException\ if\ the\ comming\ direction\ is\ not\ known\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=
+comment4.target=void\ switchLights()
+numComments=5

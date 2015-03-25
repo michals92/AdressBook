@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=surname
+comment0.target=void\ changeName(java.lang.String)
+comment0.text=\n\ The\ method\ change\ surname\ of\ the\ person.\n\ \n\ @param\ \ string\ with\ the\ new\ surname\ which\ sets\ the\ atribut\ surname\n
+comment1.params=
+comment1.target=void\ renewName()
+comment1.text=\n\ The\ method\ returned\ the\ just\ previously\ former\ surname\ of\ the\ person.\ \n\ Repeatedly\ application\ has\ no\ effect.\n
+comment2.params=person
+comment2.target=void\ setPartner(IEnlargedPerson)
+comment2.text=\n\ The\ setter\ method\ sets\ the\ partner.\n\ \n\ @param\ \ person\ the\ partner\ (the\ only\ one)\ by\ object\ implementing\ inteface\ IEnlargedPerson\n
+comment3.params=
+comment3.target=IEnlargedPerson\ getPartner()
+comment3.text=\n\ The\ getter\ method\ gets\ the\ partner.\n\ \n\ @return\ \ the\ partner\ (the\ object\ implementing\ inteface\ IEnlargedPerson\ or\ null)\n
+numComments=4

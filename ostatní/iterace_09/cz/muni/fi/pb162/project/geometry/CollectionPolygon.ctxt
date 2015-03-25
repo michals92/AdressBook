@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=vertex
+comment0.target=CollectionPolygon(Vertex2D[])
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ CollectionPolygon\n
+comment1.params=index
+comment1.target=Vertex2D\ getVertex(int)
+comment2.params=
+comment2.target=int\ getNumVertices()
+comment3.params=
+comment3.target=java.util.Collection\ getVertices()
+comment3.text=\ \n\ Vrati\ vsechny\ vrcholy\ trojuhelnika\ \n\ \n\ @return\ -\ vrati\ vsechny\ vrcholy\ n-uhelniku\ \n
+comment4.params=
+comment4.target=CollectionPolygon\ invert()
+comment4.text=\ \n\ Vrati\ obraceny\ n-uhelnik\n\ \n\ @return\ -\ invertovany\ polygon\n
+comment5.params=
+comment5.target=java.util.Collection\ removeLeftmostVertices()
+comment5.text=\n\ Vrati\ seznam\ odebranych\ nejlevejsich\ bodu\ z\ polygonu\n\ \n\ @return\ -\ odstranene\ body\n
+numComments=6

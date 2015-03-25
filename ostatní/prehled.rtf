@@ -1,0 +1,96 @@
+{\rtf1\ansi\ansicpg1250\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww13920\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs24 \cf0 \ul \ulc0 03 \ulnone \
+static - po celou dobu jen jedna prom\uc0\u283 nn\'e1\
+final - po spu\'9at\uc0\u283 n\'ed se nem\u283 n\'ed\
+interface - v\'9edy public\
+\
+\ul 05\ulnone \
+abstract\
+s1.equals(s2); - u objekt\uc0\u367 \
+array.length; - velikost pole \
+array[0].toUpperCase\
+System.arraycopy(lidi, 0, lidi2, 0, lidi.length); - kop\'edrov\'e1n\'ed obsahu pole \
+\
+porovn\'e1n\'ed desetinn\'fdch \uc0\u269 \'edsel \
+abs(expected-actual) < delta\
+\
+Oper\'e1tor podm\'edn\uc0\u283 n\'e9ho v\'fdrazu ? :\
+\
+\ul 06 vyj\'edmky \
+\ulnone extends Throwable\
+hl\'eddan\'e1 - vyskytuje se v programu, ovlivn\'ed program\'e1tor, mus\'edm deklarovat\
+nehl\'eddan\'e1 - vyj\'edmka prost\uc0\u345 ed\'ed runtime\
+try \{\
+\} \
+catch(Exception | OtherException e) \{\
+	throw new Exception();\
+\}\
+finally \{\
+// ex. file close\
+\}\
+\
+\
+\ul 07, 08 kolekce\ulnone  java.util.*;\
+Seznam - List (ArrayList, LinkedList) - i-t\'e1 pozice, duplicitn\'ed, foreach, iterator\
+	ArrayList - contains() a indexOf() z\'e1visl\'e9 na equals()\
+Mno\'9eina - Set (TreeSet, HashSet, SortedSet) - bez duplicitnich hodnot, bez uspo\uc0\u345 \'e1d\'e1n\'ed, contains, foreach, iterator\
+	HashSet - contains() ovlivn\uc0\u283 na hashCode() a equals()\
+Map - containsKey(), get(), x.values().toArray(new Vertex2D[vertex.size()]), x.keySet()\
+mapa - Map (TreeMap, HashMap, SortedMap) - dvojice kl\'ed\uc0\u269  -> hodnota, rychl\'fd p\u345 \'edstup p\u345 es kl\'ed\u269 , stejn\'fd kl\'ed\u269  -> p\u345 ep\'ed\'9ae se p\u367 vodn\'ed\
+\
+for(String i: vertex.keySet()) \{\
+            if(vertex.get(i).equals(vert)) \{\
+                labels.add(i);\
+      \}\
+\}\
+\
+// return value | otherValue.hashCode(); - oboj\'ed mus\'ed b\'fdt pravdiv\'e9 ;\
+\
+Collection - rozhran\'ed, operace nad kontejnery\
+add, isEmpty, remove, get, addAll\
+\
+Iterator - boolean hasNext(), E next(), void remove() \
+\
+return Collections.unmodifiableSet(\'85); // pro HashSet, nebo\
+return Collections.unmodifiableCollection(labels); // pro kolekci\
+return new Set<> \'85\
+\
+implements Comparable<Foo>\
+public int compareTo(Foo obj) //p\uc0\u345 irozen\'e9 uspo\u345 \'e1d\'e1n\'ed -nap\u345 . abecedn\u283 \
+\
+implements Comparator<String>\
+public int compare(String s1, String s2) \{\
+	return s1.toLowerCase().compareTo(s2.toLowerCase());\
+\}\
+\
+\ul 09 vstup/v\'fdstup java\
+\ulnone znakov\'e9 - Reader/ Writer\
+bin\'e1rn\'ed -  InputStream/ OutputStream\
+\
+\ul \uc0\u268 ten\'ed\ulnone \
+File file;\
+try (InputStream is = new FileInputStream(file) ) \{ \} // s\'e1m se zav\uc0\u345 e\
+\
+BufferedReader reader = new BufferedReader(new InputStreamReader(is));\
+String line = null;\
+while((line = reader.readLine()) != null) \{ auxMap.put()\}\
+x.putAll(auxMap);\
+\
+\ul Z\'e1pis\ulnone \
+File file;\
+OutputStream os = new FileOutputStream(file)\
+BufferedWriter aux = new BufferedWriter(new OutputStreamWriter(os));\
+aux.write(\'93string\'94);\
+aux.newLine();\
+\
+\ul bin\'e1rn\'ed z\'e1pis\
+\ulnone byte [] line = (\'93string\'94).getBytes();\
+os.write(line);\
+\
+\ul bin\'e1rn\'ed \uc0\u269 ten\'ed\ulnone \
+aa}

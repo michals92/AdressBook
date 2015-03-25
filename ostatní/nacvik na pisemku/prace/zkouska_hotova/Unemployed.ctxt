@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=name\ minSalary\ maxHoursPerDay
+comment0.target=Unemployed(java.lang.String,\ int,\ int)
+comment0.text=\r\n\ @param\ name\ Name\r\n\ @param\ minSalary\ minimal\ salary\ required\ by\ the\ person\r\n\ @param\ maxHoursPerDay\ maximal\ number\ of\ hours\ per\ day\ the\ person\ is\ willing\ to\ work\r\n\ @throws\ IllegalArgumentexception\ if\ name\ is\ empty\r\n\ @throws\ IllegalArgumentexception\ if\ minSalary\ or\ maxHoursPerDay\ <\=\ 0\r\n
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment1.text=\r\n\ @return\ Person's\ name\r\n
+comment2.params=
+comment2.target=int\ getMinSalary()
+comment2.text=\r\n\ @return\ minimal\ salary\ required\ by\ the\ person\r\n
+comment3.params=
+comment3.target=int\ getMaxHoursPerDay()
+comment3.text=\r\n\ @return\ maximal\ number\ of\ hours\ per\ day\ the\ person\ is\ willing\ to\ work\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

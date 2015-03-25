@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=arr
+comment0.target=DancingLesson(Dancer[])
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ DancingLesson\n
+comment1.params=number
+comment1.target=Dancer\ getDancer(int)
+comment2.params=ladie\ gentleman
+comment2.target=boolean\ pair(int,\ int)
+comment3.params=dancer
+comment3.target=boolean\ disjoin(int)
+comment4.params=
+comment4.target=java.util.Collection\ getSingles()
+numComments=5

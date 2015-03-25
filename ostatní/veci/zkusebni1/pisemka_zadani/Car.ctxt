@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=registration
+comment0.target=Car(java.lang.String)
+comment0.text=\n\ @param\ registraction\ registration\ (i.e.\ license\ number)\n
+comment1.params=
+comment1.target=java.lang.String\ getRegistration()
+comment1.text=\n\ @return\ registraction\ (license\ number)\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=obj
+comment3.target=boolean\ equals(java.lang.Object)
+comment4.params=
+comment4.target=int\ hashCode()
+numComments=5

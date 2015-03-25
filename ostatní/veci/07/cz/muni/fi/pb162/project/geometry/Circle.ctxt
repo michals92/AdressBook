@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=center\ radius
+comment0.target=Circle(Vertex2D,\ double)
+comment0.text=\n\ konstructor\ circle\n\ \n\ @param\ center\ ud\u00E1v\u00E1\ st\u0159ed\ kruhu\n\ @param\ radius\ ud\u00E1v\u00E1\ polom\u011Br\ kruhu\n
+comment1.params=
+comment1.target=Circle()
+comment1.text=\n\ konstructor\ circle,\ vola\ predchozi\ kontruktor\ s\ parametry\ [0,\ 0],\ 1\ \n
+comment2.params=
+comment2.target=double\ getRadius()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=
+comment4.target=double\ getLength()
+comment4.text=\n\ vraci\ obvod\ kruhu\n
+comment5.params=
+comment5.target=double\ getArea()
+comment5.text=\n\ vraci\ obsah\ kruhu\n
+numComments=6

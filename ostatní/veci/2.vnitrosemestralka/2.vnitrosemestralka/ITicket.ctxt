@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=int\ getId()
+comment0.text=\r\n\ @return\ Id\ of\ this\ ticket\r\n
+comment1.params=numbers
+comment1.target=int\ getMatch(int[])
+comment1.text=\r\n\ Method\ counts\ how\ many\ ticket\ numbers\ are\ equal\ to\ numbers\ \r\n\ in\ the\ given\ parameter.\r\n\ \r\n\ @param\ numbers\ Array\ of\ numbers\ I\ want\ to\ compare\r\n\ @return\ number\ of\ ticket\ numbers\ matching\ given\ array\ parametr\r\n
+numComments=2

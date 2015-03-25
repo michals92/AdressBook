@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="4130421773">
+    <data-source source="LOCAL" name="Derby - MisovaDB@localhost" uuid="eca7e007-2ee0-469b-884a-c0a101df5047">
+      <driver-ref>derby.remote</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.apache.derby.jdbc.ClientDriver</jdbc-driver>
+      <jdbc-url>jdbc:derby://localhost:1527/MisovaDB</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>

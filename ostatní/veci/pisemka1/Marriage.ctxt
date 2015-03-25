@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=p1\ p2
+comment0.target=void\ marriage(ISexedEnlargedPerson,\ ISexedEnlargedPerson)
+comment0.text=public\ Marriage()\n\ \ \ \ {\n\ \ \ \ \ \ \ \ numOfMarriages\ \=\ 0;\n}
+comment1.params=
+comment1.target=int\ numberOfMarriages()
+numComments=2

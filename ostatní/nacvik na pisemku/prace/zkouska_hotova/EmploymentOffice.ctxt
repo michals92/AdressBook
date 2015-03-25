@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=
+comment1.target=EmploymentOffice()
+comment2.params=
+comment2.target=java.util.List\ getUnemployed()
+comment3.params=
+comment3.target=java.util.SortedSet\ getJobs()
+comment4.params=job
+comment4.target=java.util.List\ findEmployees(Job)
+comment5.params=person
+comment5.target=java.util.SortedSet\ findJobs(Unemployed)
+comment6.params=is
+comment6.target=void\ loadData(java.io.InputStream)
+comment7.params=file
+comment7.target=void\ loadData(java.io.File)
+numComments=8

@@ -1,0 +1,29 @@
+package tomp.ucebnice.vyjimky;
+public class VyjimkyZachytZopakuj {
+   public static void main(String[] args) {
+      int i = 0;
+      String param;
+      int cislo = 0;
+      boolean ok = false;
+      do {
+         try {
+            // zde muze vzniknout vyjimka ArrayIndexOutOfBoundsException
+            param = args[i];
+            // zde muze vzniknout výjimka NumberFormatException
+            cislo = Integer.parseInt(param);
+            // nevznikla zadna vyjimka
+            ok = true;
+         } catch (NumberFormatException nfe) {
+            System.out.println("Parametr "+i+" neni platne cele cislo");
+            i++; // zkusime dalsi parametr
+         } catch (ArrayIndexOutOfBoundsException iob) {
+            System.out.println("Nepredan zadny ciselny parametr");
+            // preletli jsme vsechny parametry, dal uz nemusime zkouset
+            // vyhodime vyjimku InvalidArgumentException
+            throw new IllegalArgumentException(
+                "Nezadan zadny celociselny parametr.");
+         }
+      } while (!ok);
+      System.out.println("Zadano cislo="+cislo);
+   }
+}

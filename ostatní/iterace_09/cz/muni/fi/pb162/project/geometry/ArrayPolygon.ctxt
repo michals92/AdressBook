@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=vertex
+comment0.target=ArrayPolygon(Vertex2D[])
+comment1.params=index
+comment1.target=Vertex2D\ getVertex(int)
+comment1.text=\n\ Returns\ number\ of\ index\ modulo\ length\n\ \n\ @param\ index\ -\ number\ of\ index\n\ @return\ vertex\ \n
+comment2.params=
+comment2.target=int\ getNumVertices()
+comment2.text=\n\ Returns\ length\ of\ array\n\ \n\ @return\ length\ \n
+comment3.params=
+comment3.target=ArrayPolygon\ invert()
+comment3.text=\n\ Inverts\ array\n\ \n\ @return\ polygon\ -\ inverted\ array\ \n
+comment4.params=pol
+comment4.target=boolean\ compare(ArrayPolygon)
+comment4.text=\n\ Compares\ arrays\ if\ are\ equal\n\ they\ can\ be\ shifted,\ reversed\ or\ both\n\ \n\ @return\ areEqual\ -\ true\ if\ are\ equal,\ else\ false\n
+comment5.params=pol\ shift
+comment5.target=boolean\ compareArray(ArrayPolygon,\ int)
+comment5.text=\n\ Help\ method\ to\ compare\n\ \n\ @return\ isSame\ -\ true\ if\ are\ equal,\ else\ false\n
+numComments=6

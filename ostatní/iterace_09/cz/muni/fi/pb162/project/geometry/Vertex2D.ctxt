@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=Vertex2D(double,\ double)
+comment0.text=\n\ Konstruktor\ \n\ \n\ @param\ x\ souradnice\ x\n\ @param\ y\ souradnice\ y\n
+comment1.params=vertex
+comment1.target=double\ distance(Vertex2D)
+comment1.text=\n\ Spocita\ vzdalenost\ mezi\ dvema\ body\n\ \n\ @param\ vertex\n\ @return\ vzdalenost\n
+comment2.params=
+comment2.target=double\ getX()
+comment3.params=
+comment3.target=double\ getY()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=obj
+comment5.target=boolean\ equals(java.lang.Object)
+comment6.params=
+comment6.target=int\ hashCode()
+comment7.params=obj
+comment7.target=int\ compareTo(Vertex2D)
+numComments=8

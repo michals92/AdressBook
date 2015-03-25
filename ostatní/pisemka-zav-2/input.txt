@@ -1,0 +1,7 @@
+Buh masakru;Yasmina Reza;Tereza Groszmannova,Petr Blaha,Klara Apolenarova
+Alzbeta a Salomena;Zuzana Lapcikova;Marie Durnova,Petr Blaha,David Kaloc
+Othello;William Shakespeare;Martin Hilsky,Zdenek Kupka
+Kral Lear;William Shakespeare;Martin Hilsky,Jan Vlasak
+Hamlet;William Shakespeare;Petr Kubes,Josef Vrana 
+Fake Play;Fake Author;Fake Actor
+Another Fake Play;Fake Author;Fake Actor

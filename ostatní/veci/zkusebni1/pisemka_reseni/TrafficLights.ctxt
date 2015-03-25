@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=color
+comment0.target=TrafficLights(boolean)
+comment1.params=
+comment1.target=boolean\ hasGreenLight()
+comment2.params=
+comment2.target=void\ setRed()
+comment3.params=throughput
+comment3.target=java.util.List\ setGreen(int)
+comment4.params=car
+comment4.target=boolean\ comeTo(Car)
+comment5.params=
+comment5.target=java.util.List\ getWaitingCars()
+numComments=6

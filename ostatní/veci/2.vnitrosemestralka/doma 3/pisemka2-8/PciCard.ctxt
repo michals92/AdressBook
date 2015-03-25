@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=producer
+comment0.target=PciCard(java.lang.String)
+comment0.text=\r\n\ @param\ producer\ card\ producer\ (manufacturer),\ must\ not\ be\ null\r\n\ @throws\ IllegalArgumentException\ if\ producer\ is\ null\r\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment2.params=o
+comment2.target=boolean\ equals(java.lang.Object)
+comment3.params=
+comment3.target=int\ hashCode()
+numComments=4

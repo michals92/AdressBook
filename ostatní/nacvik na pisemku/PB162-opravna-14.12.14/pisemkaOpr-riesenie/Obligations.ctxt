@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=invoice
+comment0.target=boolean\ addInvoice(Invoice)
+comment1.params=money
+comment1.target=double\ payInvoices(double)
+comment2.params=
+comment2.target=java.util.Set\ getInvoices()
+comment3.params=idPart
+comment3.target=java.util.Set\ getInvoices(java.lang.String)
+numComments=4

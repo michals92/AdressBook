@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=id\ position\ salary\ workingHours
+comment0.target=Job(java.lang.String,\ java.lang.String,\ int,\ int)
+comment0.text=\n\ @param\ id\ Job's\ ID\n\ @param\ position\ Title\ of\ the\ offered\ position\n\ @param\ salary\ Salary\n\ @param\ workingHours\ Working\ hours\ per\ day\n\ @throws\ IllegalArgumentException\ If\ id\ or\ position\ are\ empty\n\ @throws\ IllegalArgumentException\ If\ salary\ or\ workingHours\ are\ <\=\ 0\n
+comment1.params=unemployed
+comment1.target=boolean\ checkApplicant(Unemployed)
+comment1.text=\n\ @param\ unemployed\ Applicant\ for\ the\ job\n\ @throws\ NullPointerException\ if\ unemployed\ is\ null\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=obj
+comment3.target=boolean\ equals(java.lang.Object)
+comment4.params=
+comment4.target=int\ hashCode()
+comment5.params=job
+comment5.target=int\ compareTo(Job)
+numComments=6

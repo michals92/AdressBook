@@ -1,0 +1,47 @@
+Zadanie: opravna pisomka 19.12.2012
+
+1. Upravte triedu Book nasledovne:
+	- dve knihy su identicke, ak maju rovnaky nazov a rovnakeho autora
+	- definujte prirodzene usporiadanie, ktore bude triedit knihy podla mena autora 
+	vzostupne podla abecedy (od A po Z), ak je meno autora rovnake, triedi sa podla nazvu knihy
+	opat vzostupne podla abecedy
+	
+2. Vytvorte triedu BookDescComparator, ktora bude sluzit ako externy komparator pre
+	triedu Book:
+	- bude triedit knihy podobne ako prirodzene usporiadanie, ale zostupne (od Z po A),
+	t.j. najprv bude triedit podla mena autora zostupne podla abecedy, ak 
+	je meno autora rovnake, triedi sa podla nazvu knihy zostupne podla abecedy
+
+3. Vytvorte triedu Bookcase(kniznica), ktora bude obsahovat kolekciu knih.
+	Kolekcia moze obsahovat viac vytlackov jednej knihy (s rovnakym menom autora aj nazvom)
+	- kolekciu zvolte vhodne podla implementacie nasledovnych metod (nie je 
+	povolene pouzitie pola)
+	- vytvorte metodu void addBook(String author, String name), ktora prida knihu
+		do kolekcie, ak je jeden zo vstupnych parametrov null, metoda vyhodi 
+		vhodnu vynimku
+	- vytvorte metodu int remove (String author, String name), ktora vymaze vsetky
+	vytlacky knih s menom autora a nazvu knihy z parametrov, ak je jeden zo vstupnych
+	parametrov null, metoda vyhodi vhodnu vynimku, inak vrati pocet vymazanych knih
+	- vytvorte metodu getBooks(), ktora vrati kolekciu vsetkych knih v kniznici
+	(vsetkych vytlackov)
+	- vytvorte metodu getCatalogue(), ktora vrati kolekciu v podobe katalogu bez
+	duplicit triedenu podla prirodzeneho usporiadania
+	- vytvorte pretazenu metodu getCatalogue(), ktora ako parameter zoberie lubovolny
+	komparator triedy Book a vrati kolekciu v podobe katalogu triedenu podla tohto
+	komparatora
+	
+Trieda Demo sluzi pre vasu kontrolu funkcnosti kodu a obsahuje tiez logiku volania metod.
+Pri spravnej implementacii program vypise:
+
+Books in bookcase (order does'n matter):
+[Bozena Nemcova: Devet Krizu, Bozena Nemcova: Babicka, Karel Capek: RUR, Bozena Nemcova: Babicka]
+
+Catalogue in natural ordering (order does matter):
+[Bozena Nemcova: Babicka, Bozena Nemcova: Devet Krizu, Karel Capek: RUR]
+
+Catalogue ordered by comparator (order does matter):
+[Karel Capek: RUR, Bozena Nemcova: Devet Krizu, Bozena Nemcova: Babicka]
+
+Number of removed books "Babicka" (should be 2): 2
+Books in bookcase (order does'n matter):
+[Bozena Nemcova: Devet Krizu, Karel Capek: RUR]

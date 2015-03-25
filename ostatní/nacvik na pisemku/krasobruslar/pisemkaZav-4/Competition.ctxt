@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Competition()
+comment1.params=scater\ marks
+comment1.target=void\ setMarks(FigureScater,\ java.util.List)
+comment2.params=scater
+comment2.target=java.util.Collection\ getMarks(FigureScater)
+comment3.params=
+comment3.target=java.util.Collection\ getScaters()
+comment4.params=scater
+comment4.target=double\ getFinalMark(FigureScater)
+comment5.params=os
+comment5.target=void\ store(java.io.OutputStream)
+comment6.params=file
+comment6.target=void\ store(java.io.File)
+comment7.params=f
+comment7.target=void\ load(java.io.File)
+numComments=8

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=id\ tips
+comment0.target=Ticket(int,\ int[])
+comment1.params=id1\ id2
+comment1.target=boolean\ compareTickets(int,\ int)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=
+comment3.target=int\ getId()
+comment4.params=numbers
+comment4.target=int\ getMatch(int[])
+numComments=5
